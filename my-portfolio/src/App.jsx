@@ -101,6 +101,7 @@ function Hero() {
     "Python Developer",
     "Django Developer",
     "PERN Stack Developer",
+    "Java Developer",
   ];
 
   const [index, setIndex] = React.useState(0);
