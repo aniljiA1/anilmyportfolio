@@ -654,7 +654,7 @@ function Contact() {
               className="flex items-center gap-3 text-gray-300 hover:text-indigo-400"
             >
               <FaMapMarkerAlt className="text-lg" />
-              Faridabad, Haryana, 121003 India
+              Faridabad, Haryana, 121003, India
             </a>
             {/* Email */}
             <a
