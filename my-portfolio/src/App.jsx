@@ -93,6 +93,7 @@ function Hero() {
   const roles = [
     "Full Stack Developer",
     "MERN Stack Developer",
+    "Software Developer",
     "Frontend Developer",
     "Backend Developer",
     "Web Developer",
@@ -653,7 +654,7 @@ function Contact() {
               className="flex items-center gap-3 text-gray-300 hover:text-indigo-400"
             >
               <FaMapMarkerAlt className="text-lg" />
-              Faridabad, Haryana, India
+              Faridabad, Haryana, 121003 India
             </a>
             {/* Email */}
             <a
