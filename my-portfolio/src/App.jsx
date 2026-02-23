@@ -585,6 +585,42 @@ function Projects() {
           desc="A productivity-focused task management application that allows users to add, filter, and delete tasks efficiently. Designed with a clean interface to improve workflow organization and enhance daily productivity."
           live="https://anilmytask.ccbp.tech/"
         />
+
+        <ProjectCard
+          title="Bellcorp Event"
+          desc="Designed and developed a modern event management website highlighting premium event planning services. Integrated responsive UI components and optimized user flow to provide an engaging and smooth booking experience."
+          live="https://anilbellcorpevent.vercel.app/"
+        />
+
+        <ProjectCard
+          title="Astro Vaastu"
+          desc="A professional astrology and Vaastu consultation website designed to provide personalized spiritual guidance and architectural harmony solutions. Features a clean, responsive interface that allows users to explore services, gain insights, and connect easily for consultations."
+          live="https://anilastrovaastu.vercel.app/"
+        />
+
+        <ProjectCard
+          title="Data Visualization Dashboard"
+          desc="A corporate-style business website focused on delivering data-driven insights and technology solutions. Designed with a professional layout and structured content sections, it highlights services, case studies, and company expertise while ensuring a seamless user experience across devices."
+          live="https://anilblackcoffer-mkgl.vercel.app/"
+        />
+
+        <ProjectCard
+          title="Job Board"
+          desc="Developed a responsive job board application that enables users to browse, search, and filter job listings efficiently. Implemented structured job categories, detailed job views, and intuitive navigation to enhance the job discovery experience across devices."
+          live="https://anilcygnusvoyages.vercel.app/"
+        />
+
+        <ProjectCard
+          title="BeyondChats"
+          desc="A content-driven blog platform focused on AI, chatbots, SEO, and digital innovation. Designed with an organized article structure and responsive layout, it enables users to explore insights, case studies, and industry trends through a clean and engaging reading experience."
+          live="https://anilbeyondchats.vercel.app/"
+        />
+
+        <ProjectCard
+          title="SalesDash"
+          desc="A CRM-style sales dashboard application designed to manage leads, track call logs, and monitor sales activities efficiently. Features role-based access, lead status filtering, and structured data management to streamline sales workflows and improve team productivity."
+          live="https://anilsalespyper.vercel.app/"
+        />
       </div>
     </section>
   );
@@ -760,7 +796,7 @@ function Contact() {
 function Footer() {
   return (
     <footer className="py-6 text-center text-sm text-gray-500">
-      © 2025 Anil Kumar. Built with React.
+      © {new Date().getFullYear()} Anil Kumar. Built with React.
     </footer>
   );
 }
