@@ -417,6 +417,8 @@ import {
   SiJson,
   SiGithub,
   SiOpenai,
+  SiCplusplus,
+  SiLaravel,
 } from "react-icons/si";
 
 function Skills() {
@@ -435,6 +437,7 @@ function Skills() {
     { name: "Python", icon: <FaPython className="text-yellow-300" /> },
     { name: "Java", icon: <FaJava className="text-red-500" /> },
     { name: "SQL", icon: <FaDatabase className="text-blue-300" /> },
+    { name: "C / C++", icon: <SiCplusplus className="text-blue-400" /> },
 
     { name: "PHP", icon: <FaPhp className="text-indigo-400" /> },
     { name: "Git", icon: <FaGitAlt className="text-orange-600" /> },
@@ -442,6 +445,7 @@ function Skills() {
     { name: "Docker", icon: <FaDocker className="text-blue-400" /> },
     { name: "Django", icon: <SiDjango className="text-green-500" /> },
     { name: "Flask", icon: <SiFlask /> },
+    { name: "Laravel", icon: <SiLaravel className="text-red-500" /> },
     { name: "JSON", icon: <SiJson className="text-yellow-300" /> },
     { name: "ChatGPT", icon: <SiOpenai className="text-emerald-400" /> },
   ];
@@ -520,14 +524,33 @@ const certificatesData = [
   },
   {
     id: 11,
+    title: "C & C++ Specialist — Winsofts",
+    url: "https://drive.google.com/file/d/1wO79Bv1QBNKXCL0SE_wRBfIqLTzrwE82/view?usp=sharing",
+  },
+
+  {
+    id: 12,
     title: "XPM 4.0 Fundamentals",
     url: "https://certificates.ccbp.in/intensive/xpm-4-0-fundamentals?id=SAHJKEAECH",
   },
   {
-    id: 12,
+    id: 13,
     title: "ChatGPT for Beginners",
     url: "https://www.mygreatlearning.com/certificate/LSGLKSMH?referrer_code=GLTLSIZCOFLJ4",
   },
+
+  {
+    id: 14,
+    title: "TCS iON Career Edge — Young Professional",
+    url: "https://drive.google.com/file/d/14OT8pNwkVxiglP_lE3LMgGdFaIVumw5n/view?usp=sharing",
+  },
+
+  {
+    id: 15,
+    title: "AI Web Development Internship — InAmigos Foundation",
+    url: "https://drive.google.com/file/d/1k6dFpxGXSbr16BNNfc5uMgsIqrdBXXeD/view?usp=sharing",
+  },
+
 
   // You can add more certificates here
   // { id: 2, title: "Another Certificate", url: "https://..." },
@@ -569,27 +592,27 @@ function Projects() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         <ProjectCard
-          title="GitHub Popular Repositories"
-          desc="A responsive web application that displays trending GitHub repositories based on stars, forks, and issues. Features dynamic filtering, clean UI, and real-time data rendering to help users discover popular open-source projects efficiently."
-          live="https://anilgitpopular.ccbp.tech/"
+          title="Money Matters – Finance Tracker App"
+          desc="A modern personal finance tracking app built with React and Vite. Features user authentication, an interactive dashboard with total balance, income & expense summaries, dynamic Bar & Pie charts, and full transaction management — all with a fully responsive UI."
+          live="https://anilnxtwaveproject12.vercel.app/"
         />
 
         <ProjectCard
-          title="Prime Video Clone"
-          desc="A visually rich Prime Video clone built with React that showcases movies and series in multiple categories. Includes interactive UI components, smooth navigation, and trailer previews to replicate a real-world streaming platform experience."
-          live="https://anilprimevideo.ccbp.tech/"
+          title="JG University — Modern Landing Page"
+          desc="A modern, fully responsive university landing page built with Next.js 14 and Tailwind CSS. Features animated hero with video modal, scroll-triggered stats counter, tabbed programs browser, infinite partner marquee, auto-playing testimonials carousel, and a working enquiry form."
+          live="https://anilreducateai.vercel.app/"
         />
 
         <ProjectCard
-          title="My Task Manager"
-          desc="A productivity-focused task management application that allows users to add, filter, and delete tasks efficiently. Designed with a clean interface to improve workflow organization and enhance daily productivity."
-          live="https://anilmytask.ccbp.tech/"
+          title="AI CRM for Healthcare Professionals"
+          desc="An AI-powered CRM built for pharma sales reps using React, Redux Toolkit, and FastAPI. Features an AI chat assistant powered by Groq LLM, doctor interaction logging with automatic sentiment detection, and intelligent next-action follow-up suggestions."
+          live="https://anilaivoatask.vercel.app/"
         />
 
         <ProjectCard
-          title="Bellcorp Event"
-          desc="Designed and developed a modern event management website highlighting premium event planning services. Integrated responsive UI components and optimized user flow to provide an engaging and smooth booking experience."
-          live="https://anilbellcorpevent.vercel.app/"
+          title="Peblo Notes — AI-Powered Collaborative Workspace"
+          desc="A full-stack notes app built with React, Node.js, and MongoDB, powered by Anthropic Claude AI. Features JWT auth, rich note editor with auto-save, AI-generated summaries and action items, public note sharing, full-text search with tag filters, and a productivity insights dashboard with charts."
+          live="https://anilpeblonotes.vercel.app/"
         />
 
         <ProjectCard
@@ -599,15 +622,15 @@ function Projects() {
         />
 
         <ProjectCard
-          title="Data Visualization Dashboard"
-          desc="A corporate-style business website focused on delivering data-driven insights and technology solutions. Designed with a professional layout and structured content sections, it highlights services, case studies, and company expertise while ensuring a seamless user experience across devices."
-          live="https://anilblackcoffer-mkgl.vercel.app/"
+          title="MovieDB App"
+          desc="A responsive movie browsing app built with React and Vite, powered by the OMDb API. Features a popular movies feed, search by name, dedicated movie detail pages, and smooth client-side routing — all with a fully responsive design."
+          live="https://anilnxtwaveproject9.vercel.app/"
         />
 
         <ProjectCard
-          title="Job Board"
-          desc="Developed a responsive job board application that enables users to browse, search, and filter job listings efficiently. Implemented structured job categories, detailed job views, and intuitive navigation to enhance the job discovery experience across devices."
-          live="https://anilcygnusvoyages.vercel.app/"
+          title="HN Reader — Hacker News MERN App"
+          desc="A full-stack Hacker News scraper and reader built with the MERN stack. Features a server-side web scraper using Cheerio, JWT authentication, paginated story feed sorted by points, and a bookmark system for authenticated users with protected routes."
+          live="https://anilhn-app.vercel.app/"
         />
 
         <ProjectCard
@@ -617,9 +640,27 @@ function Projects() {
         />
 
         <ProjectCard
-          title="SalesDash"
-          desc="A CRM-style sales dashboard application designed to manage leads, track call logs, and monitor sales activities efficiently. Features role-based access, lead status filtering, and structured data management to streamline sales workflows and improve team productivity."
-          live="https://anilsalespyper.vercel.app/"
+          title="Pear Media AI — Creative Studio"
+          desc="A full-stack AI-powered creative studio built with React, Node.js, and Express. Features a Text-to-Image generator with prompt enhancement, an Image Style Analyzer that detects colors and artistic style using Gemini Vision, and the ability to generate variations — all powered by HuggingFace and Gemini APIs."
+          live="https://anilpearmedia.vercel.app/"
+        />
+
+        <ProjectCard
+          title="Admin Dashboard App"
+          desc="A modern admin dashboard built with Next.js and NextAuth.js. Features Google OAuth and local authentication, protected routes, stats cards with charts, a transactions module with auto total calculation, and a schedule/events manager — all with a clean sidebar navigation UI."
+          live="https://anilnxtwaveproject10.vercel.app/"
+        />
+
+        <ProjectCard
+          title="SF Validator — Salesforce Validation Rule Manager"
+          desc="A full-stack React + Node.js app that connects to Salesforce via OAuth 2.0, allowing users to view, activate, deactivate, and bulk toggle Account validation rules using the Salesforce Tooling API."
+          live="https://anilcloudvandana.vercel.app/"
+        />
+
+        <ProjectCard
+          title="Smart Leads Dashboard"
+          desc="A full-stack Lead Management Dashboard built with the MERN stack and TypeScript. Features JWT authentication, role-based access control for Admin & Sales roles, lead CRUD with advanced filtering, debounced search, backend pagination, CSV export, and a dark mode toggle with system preference support."
+          live="https://anilservicehive.vercel.app/"
         />
       </div>
     </section>
