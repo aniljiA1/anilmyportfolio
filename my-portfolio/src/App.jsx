@@ -604,9 +604,9 @@ function Projects() {
         />
 
         <ProjectCard
-          title="AI CRM for Healthcare Professionals"
-          desc="An AI-powered CRM built for pharma sales reps using React, Redux Toolkit, and FastAPI. Features an AI chat assistant powered by Groq LLM, doctor interaction logging with automatic sentiment detection, and intelligent next-action follow-up suggestions."
-          live="https://anilaivoatask.vercel.app/"
+          title="AI Voice Appointment Booking System"
+          desc="A full-stack AI-powered healthcare voice assistant built with React, Node.js, Express, and MongoDB. Patients book appointments via AI phone calls using Bland.ai voice technology. Features real-time dashboard with Socket.io, Hindi + English bilingual support, call recordings, automatic appointment extraction from speech, and JWT-secured doctor dashboard."
+          live="https://anilmedicalappointment.vercel.app/"
         />
 
         <ProjectCard
